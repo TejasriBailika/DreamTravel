@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b30000; /* Red header */
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+header nav {
+    margin-top: 15px;
+}
+
+header .btn {
+    color: #fff;
+    background-color: #ff4d4d; /* Red button */
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 0 10px;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+header .btn:hover {
+    background-color: #e60000; /* Darker red hover effect */
+}
+
+#taj-mahal-guide {
+    padding: 20px;
+    margin: 20px;
+}
+
+#taj-mahal-guide h2 {
+    color: #b30000;
+    margin-bottom: 20px;
+}
+
+#taj-mahal-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #b30000;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#places-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+#places-list li {
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+#places-list a {
+    text-decoration: none;
+    color: #b30000;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+}
+
+#places-list a:hover {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+

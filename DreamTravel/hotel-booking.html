@@ -1,0 +1,69 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Booking - Iconic Landmarks</title>
+    <link rel="stylesheet" href="hotel-booking.css">
+</head>
+<body>
+    <header>
+        <h1>Book Hotels Near Iconic Landmarks</h1>
+        <a href="index.html" class="btn">Back to Dream Travel</a>
+    </header>
+
+    <section id="search-section">
+        <h2>Find Your Stay Near Iconic Landmarks in India</h2>
+        <form id="searchForm">
+            <div class="dropdown">
+                <select id="landmark" required>
+                    <option value="">Select Landmark</option>
+                    <option value="Taj Mahal">Taj Mahal, Agra</option>
+                    <option value="Charminar">Charminar, Hyderabad</option>
+                    <option value="Gateway of India">Gateway of India, Mumbai</option>
+                    <option value="Qutub Minar">Qutub Minar, Delhi</option>
+                    <option value="Amer Fort">Amer Fort, Jaipur</option>
+                    <option value="Mysore Palace">Mysore Palace, Mysore</option>
+                    <option value="Kerala Backwaters">Kerala Backwaters, Kerala</option>
+                    <option value="Victoria Memorial">Victoria Memorial, Kolkata</option>
+                    <option value="Sanchi Stupa">Sanchi Stupa, Sanchi</option>
+                    <option value="Meghalaya Waterfalls">Meghalaya Waterfalls, Shillong</option>
+                </select>
+            </div>
+            <div class="date-picker">
+                <label for="checkin">Check-in:</label>
+                <input type="date" id="checkin" required>
+                <label for="checkout">Check-out:</label>
+                <input type="date" id="checkout" required>
+            </div>
+            <input type="number" id="guests" placeholder="Number of guests" required>
+            <select id="currency">
+                <option value="INR" selected>INR - Indian Rupee</option>
+            </select>
+            <button type="submit">Search Hotels</button>
+        </form>
+    </section>
+
+    <section id="hotel-list">
+        <!-- Hotels will be dynamically displayed here -->
+    </section>
+
+    <!-- Hotel Details Modal -->
+    <div id="hotelModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2 id="hotelName">Hotel Name</h2>
+            <p id="hotelDescription">Hotel description...</p>
+            <p><strong>Amenities:</strong> <span id="hotelAmenities">Free Wi-Fi, Pool, Spa</span></p>
+            <p><strong>Rating:</strong> <span id="hotelRating">4.5 stars</span></p>
+            <p><strong>Price:</strong> ₹<span id="hotelPrice">5000</span> per night</p>
+        </div>
+    </div>
+
+    <footer>
+        <p>© 2025 Dream Travel - Worldwide Hotel Booking</p>
+    </footer>
+
+    <script src="hotel-booking.js"></script>
+</body>
+</html>

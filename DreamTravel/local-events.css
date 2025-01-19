@@ -1,0 +1,120 @@
+/* Resetting Basic Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Header Styling */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+  background-color: red; /* White background for clarity */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+.header .logo h1 {
+  color: white; /* Red text color */
+  font-size: 2.5rem; /* Larger, bold font for emphasis */
+  font-weight: 700; /* Strong font weight */
+  letter-spacing: 2px; /* Slightly spaced letters for a contemporary feel */
+  transition: all 0.3s ease; /* Smooth transition for hover effects */
+}
+
+.header .logo h1:hover {
+  color: #d32f2f; /* Slightly darker red on hover */
+  transform: scale(1.1); /* Slight scale effect for emphasis */
+}
+
+.home-navigation {
+  display: flex;
+  align-items: center;
+}
+
+.home-navigation .home-btn {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.2rem; /* Larger button text */
+  padding: 12px 25px;
+  background-color: #ff4d4d; /* Red background */
+  border-radius: 50px; /* Rounded corners for a smooth look */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+  transition: all 0.3s ease; /* Smooth transitions */
+  display: flex;
+  align-items: center;
+}
+
+.home-navigation .home-btn:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+  transform: translateY(-5px); /* Button lifts on hover */
+}
+
+.home-navigation .home-btn i {
+  margin-right: 10px; /* Spacing between icon and text */
+  font-size: 1.3rem; /* Slightly larger icon */
+}
+
+/* Main Content Styling */
+.main-content {
+  padding: 40px;
+  background-color: #f5f5f5;
+}
+
+.main-content h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: red;
+}
+
+.main-content p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  margin-bottom: 30px;
+}
+
+/* Events Container */
+.events-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+/* Event Card */
+.event-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+}
+
+.event-card h3 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.event-card p {
+  font-size: 1rem;
+  margin-bottom: 10px;
+  color: #666;
+}
+
+.event-card .learn-more-btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  color: white;
+  background-color: red;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.event-card .learn-more-btn:hover {
+  background-color: darkred;
+}
+
