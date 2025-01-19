@@ -28,3 +28,6 @@ Welcome to **Dream Travel**, your one-stop platform to explore breathtaking dest
 - **JavaScript** for interactivity.
 - Hosted locally using the WebCode app.
 
+  ![Home page](Homepage.jpeg)
+
+
