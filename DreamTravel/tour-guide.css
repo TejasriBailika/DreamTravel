@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background-color: #b30000; /* Red header */
+    background-color: #b30000; 
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -18,7 +18,7 @@ header nav {
 
 header .btn {
     color: #fff;
-    background-color: #ff4d4d; /* Red button */
+    background-color: #ff4d4d; 
     padding: 10px 20px;
     text-decoration: none;
     margin: 0 10px;
@@ -27,7 +27,7 @@ header .btn {
 }
 
 header .btn:hover {
-    background-color: #e60000; /* Darker red hover effect */
+    background-color: #e60000; 
 }
 
 #taj-mahal-guide {
